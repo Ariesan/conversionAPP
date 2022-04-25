@@ -2,6 +2,8 @@
 
 ### This project is part of SCRIMBA curricullum Learn Javascript for Free.
 
+![App Picture](/unit-conversion.png)
+
 After we've been taught about Js Data Structure, DOM Manipulation by creating Passanger Counter APP, we were given task to finish this **SOLO PROJECT : Building Unit Conversion**. Solo project means, we do it by our self without getting any help from insctructor.
 
 Instructor only given us Figma file with specified requirement for final design and how App should work.
