@@ -12,7 +12,7 @@ body, html {
 
 main {
     background-image: linear-gradient(
-        50deg,
+        25deg,
         hsl(32deg 90% 52%) 0%,
         hsl(26deg 94% 56%) 12%,
         hsl(20deg 97% 59%) 27%,
@@ -25,13 +25,14 @@ main {
         hsl(340deg 82% 61%) 100%
     );
     margin-bottom: 10px;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    height: 50vh; /*to make main equal height with bottom */
+    padding-top: 30px;
+    
 }
 
 .main-title {
     margin-bottom: 50px;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
 }
 section {
     background: #0e141b;
@@ -43,33 +44,18 @@ p {
     font-size: 0.9rem;
 }
 
-.main-conversion {
-    margin: auto;
-    max-width: 300px;
-}
-
-button {
-    float: left;
-    width: 40%;
-    padding: 10px;
-    border: none;    
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: #0e141b;
-    border-radius: 5px;
-    padding-bottom: 12px;
-    padding-top: 14px;
+input:focus {
+    outline: none; /* to delete border on user input */
 }
 
 #input-unit {
-    font-size: 2.5rem;
-    width: 60%;
-    float: left;
+    font-size: 3rem;
+    width: 40%;    
     border: none;
-    border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, .01); /* to make input unit transparent */
+    cursor: pointer;
 }
 
 /* to hide arrow from input number in : Chrome, Safari, Edge, Opera */
@@ -88,7 +74,7 @@ input[type=number] {
 footer {
     background-color: #0e141b;
     color: #FBF7EE;    
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 0.8rem;
     font-weight: bold;
 }
