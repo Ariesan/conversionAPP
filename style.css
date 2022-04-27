@@ -32,7 +32,9 @@ main {
 
 .main-title {
     margin-bottom: 50px;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 section {
     background: #0e141b;
@@ -49,7 +51,7 @@ input:focus {
 }
 
 #input-unit {
-    font-size: 3rem;
+    font-size: 4.5rem;
     width: 40%;    
     border: none;
     text-align: center;

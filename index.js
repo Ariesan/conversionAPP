@@ -1,4 +1,3 @@
-//let inputUnit = 2
 let newUnit = document.getElementById("input-unit")
 let button = document.querySelector("#conversion-btn")
 let lengthResult = document.querySelector(".length-result");
@@ -6,7 +5,6 @@ let volumeResult = document.querySelector(".volume-result");
 let massResult = document.querySelector(".mass-result");
 
 
-// button.addEventListener("click", function() 
 newUnit.addEventListener("input", function() {
 
 let meterCalc = (newUnit.value * 3.28084).toFixed(3)
